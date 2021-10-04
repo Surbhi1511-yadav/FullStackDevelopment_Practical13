@@ -58,6 +58,32 @@
             color: #64548f;
             margin-right: 10px ;
         }
+        tbody tr:nth-child(odd){
+            background-color: #edf3e2;
+        }
+        tfoot tr{
+            line-height: 70px;
+        }
+        a{
+            text-decoration: none;
+            background-color: #64548f;
+            padding: 15px 25px;
+            color: white;
+            border-radius: 10px;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+        a:hover{
+            background-color: red;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        tbody tr:first-child td{
+            font-size: 20px;
+            color: green;
+        }
     </style>
 </head>
 <body>
@@ -152,6 +178,14 @@
                         <td><i style="color: green;" class="fa fa-check"></i></td>
                     </tr>
                 </tbody>
+                <tfoot>
+                    <tr>
+                        <td><a href="#">Sign Up</a></td>
+                        <td><a href="#">Sign Up</a></td>
+                        <td><a href="#">Sign Up</a></td>
+                        <td><a href="#">Sign Up</a></td>
+                    </tr>
+                </tfoot>
             </table>
     </div>
 </body>
